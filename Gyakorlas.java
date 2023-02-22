@@ -6,9 +6,17 @@ public class Gyakorlas {
 
   
     public static void main(String[] args) {
-        elso10SzamOsszege();
-        String szoveg= "Az első 10 szám összege %d\n\",osszeg";
-        kiir(szoveg);
+        int osszeg = elso10SzamOsszege();
+        String kimenet = "Az első 10 szám összege: " +osszeg + "\n";
+        kiir(kimenet);
+        
+        int szam1 =7, szam2 = 4;
+        osszeg = osszead(szam1,szam2);
+        kiir("%d + %d =%d \n".formatted(szam1, szam2, osszeg));
+        
+        
+        String szamString = in.nextLine();
+        osszeg += szam;
         
     }
     
