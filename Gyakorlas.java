@@ -6,6 +6,9 @@ public class Gyakorlas {
 
   
     public static void main(String[] args) {
+        elso10SzamOsszege();
+        String szoveg= "Az első 10 szám összege %d\n\",osszeg";
+        kiir(szoveg);
         
     }
     
