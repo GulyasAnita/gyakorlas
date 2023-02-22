@@ -15,8 +15,8 @@ public class Gyakorlas {
         kiir("%d + %d =%d \n".formatted(szam1, szam2, osszeg));
         
         
-        String szamString = in.nextLine();
-        osszeg += szam;
+        osszeg = osszead(1, osszead(2, osszead(3,4)));
+        kiir("1+2+3+4="+osszeg+"\n");
         
     }
     
